@@ -1,0 +1,12 @@
+Use Gnu development tools to build distributed source codes.
+
+Operations:
+vi GnuHelloWorld.c
+vi Makefile.am     #Make preparations for generating configuration script.
+vi configure.ac    #Make preparations for generating .m4 file.
+aclocal            #Generate .m4 file.
+autoconf           #Generate configuration scripts.
+touch NEWS README AUTHORS ChangeLog #Make sure automake works.
+automake -a
+./configure                         #Generate Makefile.in
+make distcheck                      #Package distributed source codes.

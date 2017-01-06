@@ -1,0 +1,5 @@
+AC_INIT(GnuHelloWorld.c)
+AM_INIT_AUTOMAKE(GnuHelloWorld,1.0)
+AC_PROG_CC
+AC_PROG_INSTALL
+AC_OUTPUT(Makefile)

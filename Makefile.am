@@ -1,0 +1,2 @@
+bin_PROGRAMS=GnuHelloWorld
+GnuHelloWorld_SOURCES=GnuHelloWorld.c
