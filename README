@@ -1,6 +1,6 @@
 Every distribution must contain this file. This is the file that the installer must read fully after unpacking the distribution and before configuring it. You should briefly explain the purpose of the distribution, and reference all other documentation available
 
-Purpose:Use Gnu development tools to build distributed source codes.
+Purpose:Use Gnu development tools to build source code distribution.
 
 Operations:
 vi GnuHelloWorld.c
@@ -11,4 +11,4 @@ autoconf           #Generate configuration scripts.
 touch NEWS README AUTHORS ChangeLog #Make sure automake works.
 automake -a
 ./configure                         #Generate Makefile.in
-make distcheck                      #Package distributed source codes.
+make distcheck                      #build source code distribution.
