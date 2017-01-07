@@ -1,0 +1,10 @@
+Use this file to record all the changes that you make to your source code. 
+A typical ChangeLog entry looks like this:
+
+          1998-05-17  Eleftherios Gkioulekas  <lf@amath.washington.edu>
+          
+           * src/acmkdir.sh: Now acmkdir will put better default content
+             to the files README, NEWS, AUTHORS, THANKS
+
+Every entry contains all the changes you made within the period of a day. The most recent changes are listed at the top, the older changes slowly scroll to the bottom. Changes are sorted together in groups, per day of work. 
+

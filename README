@@ -1,4 +1,6 @@
-Use Gnu development tools to build distributed source codes.
+Every distribution must contain this file. This is the file that the installer must read fully after unpacking the distribution and before configuring it. You should briefly explain the purpose of the distribution, and reference all other documentation available
+
+Purpose:Use Gnu development tools to build distributed source codes.
 
 Operations:
 vi GnuHelloWorld.c
