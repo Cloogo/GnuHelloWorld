@@ -2,6 +2,6 @@
 #include <stdlib.h>
 
 int main(){
-    printf("Hello Gnu!\n");
+    printf("\e[32mHello Gnu!\n\e[0m");
     return 0;
 }
